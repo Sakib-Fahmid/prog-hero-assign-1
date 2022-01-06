@@ -4,6 +4,7 @@ body, button{
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
+    margin: 0;
 }
 section{
     display: flex;
@@ -17,7 +18,8 @@ h1{
     padding: 100px;
 }
 img{
-    width: 90%;
+    width: 70%;
+    border-radius: 20px;
 }
 .violet-color{
     color: violet;
@@ -37,10 +39,7 @@ img{
     padding-left: 20px;
 }
 .centered-parent-div{
-    /* text-align: center; */
     gap: 45px;
-    flex-shrink: 2;
-    flex-basis: auto;
     padding: 50px;
     justify-content: space-between;
 }
@@ -67,9 +66,40 @@ img{
 }
 .centered-heading{
     text-align: center;
+    vertical-align: middle;
 }
 .card-shape{
     border-radius: 30px;
     padding: 20px;
     flex-basis: 100%;
+}
+.subheadings{
+    font-weight: 900;
+    font-size: 50px;
+}
+.side-image img{
+    width:90%;
+    border-radius: 20px;
+    height: 100%;
+    flex-basis: 100%;
+}
+.side-text{
+    padding: 10px 20px;
+    height: 50%;
+    flex-basis: 100%;
+}
+footer{
+    background: violet;
+    height:140px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+}
+footer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer-subtext-color{
+    color:rgb(195, 238, 238);
 }
